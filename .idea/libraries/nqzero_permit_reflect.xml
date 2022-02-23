@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="nqzero.permit.reflect" type="repository">
+    <properties maven-id="com.nqzero:permit-reflect:0.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/permit-reflect-0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

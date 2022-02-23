@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="coherence">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Weblogic-Debug-01/src/main/java/lib/coherence.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

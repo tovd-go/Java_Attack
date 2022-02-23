@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/resourse" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="shirodemo-1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="coherence" level="project" />
+    <orderEntry type="library" name="nqzero.permit.reflect" level="project" />
+    <orderEntry type="library" name="javassist" level="project" />
+    <orderEntry type="library" name="mozilla.rhino" level="project" />
+    <orderEntry type="library" name="unboundid-ldapsdk-3.1.1" level="project" />
+  </component>
+</module>
