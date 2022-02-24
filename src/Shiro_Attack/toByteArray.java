@@ -3,7 +3,9 @@ package Shiro_Attack;
 import Commons.*;
 
 import java.io.*;
-
+/*
+class文件转byte[]。
+ */
 public class toByteArray {
 
     public static byte[] toByteArray(String filename) throws IOException {

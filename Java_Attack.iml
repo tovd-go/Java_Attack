@@ -15,5 +15,6 @@
     <orderEntry type="library" name="javassist" level="project" />
     <orderEntry type="library" name="mozilla.rhino" level="project" />
     <orderEntry type="library" name="unboundid-ldapsdk-3.1.1" level="project" />
+    <orderEntry type="library" name="ysoserial-0.0.6-SNAPSHOT-all" level="project" />
   </component>
 </module>

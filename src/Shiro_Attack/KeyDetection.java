@@ -5,7 +5,13 @@ import org.apache.shiro.subject.SimplePrincipalCollection;
 import java.io.*;
 import java.net.*;
 import java.util.HashMap;
-
+/*
+用于检测shiro key 是否正确
+1. 利用urldns去检测
+2. 利用shiro本身的处理逻辑，key正确or不正确时会抛出异常（因为序列化的类没有继承SilentURLStreamHandler)
+，response包中存在remember字段，而当key正确时，继承了SilentURLStreamHandler的类序列化时不抛出异常
+response不会有remember字段。
+* */
 public class KeyDetection {
     public static void Detection(String filename) throws IOException {
         SimplePrincipalCollection simplePrincipalCollection = new SimplePrincipalCollection();
@@ -24,6 +30,7 @@ public class KeyDetection {
         obj.writeObject(ht);
         obj.close();
     }
+
     public static class SilentURLStreamHandler extends URLStreamHandler {
 
         protected URLConnection openConnection(URL u) throws IOException {

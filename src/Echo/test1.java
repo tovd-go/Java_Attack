@@ -3,8 +3,6 @@ package Echo;
 import java.io.BufferedInputStream;
 public class test1  {
      public void exec(String cmd) throws Exception{
-
-
              String s="";
              int len;
              int bufSize=8912;

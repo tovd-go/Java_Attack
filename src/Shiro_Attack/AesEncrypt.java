@@ -7,7 +7,9 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 import java.security.AlgorithmParameters;
 
-
+/*
+* shiro-550 AES加密模块，ser->aes->base64
+* */
 public class AesEncrypt {
 
     public static String encrypt(String key, byte[] payload){
